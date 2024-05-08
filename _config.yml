@@ -1,0 +1,32 @@
+# Site settings
+title: My Awesome Blog
+email: myemail@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my awesome blog where I share my thoughts on technology, programming, and more.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://<yourusername>.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Optional features
+show_excerpts: true # show excerpts on the homepage
+
+# Social media links (uncomment to include)
+# twitter_username: yourusername
+# github_username:  yourusername
+# linkedin_username: yourusername
+
+# Analytics (uncomment to use Google Analytics)
+# google_analytics: UA-XXXXXXXXX-X
+
+
